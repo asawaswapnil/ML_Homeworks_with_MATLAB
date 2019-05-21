@@ -1,0 +1,11 @@
+function y=one_hot(X)
+bits=length(unique(X));
+n=grp2idx(X);
+oneh=eye(bits)
+y= zeros(length(X),bits);
+for i=1:length(X)
+    n(i);
+    oneh(n(i));
+    y(i,:)=oneh(n(i),:);
+end
+end

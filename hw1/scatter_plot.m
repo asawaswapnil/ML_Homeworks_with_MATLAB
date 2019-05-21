@@ -1,0 +1,1 @@
+function scatter_plot(X,Y)scatter(X,Y,'.')end
